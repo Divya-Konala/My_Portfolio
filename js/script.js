@@ -51,9 +51,9 @@ function showSection(element) {
   document.querySelector("#" + target).classList.add("active");
 }
 function updateNav(element) {
+  const target = element.getAttribute("href").split("#")[1];
   for (let i = 0; i < totalNavList; i++) {
     navList[i].querySelector("a").classList.remove("active");
-    const target = element.getAttribute("href").split("#")[1];
     if (
       target ===
       navList[i].querySelector("a").getAttribute("href").split("#")[1]
