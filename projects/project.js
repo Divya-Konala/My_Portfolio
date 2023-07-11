@@ -16,6 +16,24 @@ const Projects = [
     project_type: "Individual Project",
   },
   {
+    name: "Shopping Website",
+    about:
+      "Fully functional and responsive e-commerce website",
+    img: "./images/instyle.png",
+    gitrepo: "https://github.com/Divya-Konala/Instyle-ShoppingApp",
+    tech_stack: "HTML | CSS | JS | Firebase | Bootstrap | Fakestore API",
+    tech_stackicons: [
+      `<img src="https://img.icons8.com/color/48/000000/html-5"/>`,
+      `<img src="https://img.icons8.com/color/48/000000/css3"/>`,
+      `<img src="https://img.icons8.com/color/48/000000/javascript--v2.png"/>`,
+      `<img src="https://img.icons8.com/color/48/000000/google-firebase-console"/>`,
+      `<img src="https://img.icons8.com/color/48/000000/bootstrap"/>`,
+      `<img src="https://img.icons8.com/color/48/000000/api-settings.png"/>`
+    ],
+    project_link: "https://instyle-shopping-app.vercel.app/",
+    project_type: "Individual Project",
+  },
+  {
     name: "Task Management Application",
     about:
       "Task Management Application is designed to help users organize and track their tasks efficiently. It offers various features like Add a task card to the list, Update/Delete task, Move card to another list & Export the entire list to Excel",
