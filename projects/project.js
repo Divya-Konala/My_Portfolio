@@ -16,21 +16,6 @@ const Projects = [
     project_type: "Individual Project",
   },
   {
-    name: "Typing Playground",
-    about:
-      "A multi-mode typing test website with the ability to save results for best analysis.",
-    img: "./images/swiftkeys.png",
-    gitrepo: "https://github.com/Divya-Konala/Typing-Speed-Test",
-    tech_stack: "React | Firebase | MUI",
-    tech_stackicons: [
-      `<img src="https://img.icons8.com/color/48/000000/react-native.png"/>`,
-      `<img src="https://img.icons8.com/color/48/000000/google-firebase-console"/>`,
-      `<img src="https://img.icons8.com/color/48/000000/material-ui"/>`,
-    ],
-    project_link: "https://swift-keys.netlify.app/",
-    project_type: "Individual Project",
-  },
-  {
     name: "Shopping Website",
     about: "Fully functional and responsive e-commerce website",
     img: "./images/instyle.png",
@@ -45,6 +30,21 @@ const Projects = [
       `<img src="https://img.icons8.com/color/48/000000/api-settings.png"/>`,
     ],
     project_link: "https://instyle-shopping-app.vercel.app/",
+    project_type: "Individual Project",
+  },
+  {
+    name: "Typing Playground",
+    about:
+      "A multi-mode typing test website with the ability to save results for best analysis.",
+    img: "./images/swiftkeys.png",
+    gitrepo: "https://github.com/Divya-Konala/Typing-Speed-Test",
+    tech_stack: "React | Firebase | MUI",
+    tech_stackicons: [
+      `<img src="https://img.icons8.com/color/48/000000/react-native.png"/>`,
+      `<img src="https://img.icons8.com/color/48/000000/google-firebase-console"/>`,
+      `<img src="https://img.icons8.com/color/48/000000/material-ui"/>`,
+    ],
+    project_link: "https://swift-keys.netlify.app/",
     project_type: "Individual Project",
   },
   {
