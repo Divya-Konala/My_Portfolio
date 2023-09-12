@@ -1,6 +1,21 @@
 // import coschedule from "../images/coschedule.png";
 const Projects = [
   {
+    name: "PromptWiz: Your Creative Prompt Hub",
+    about:
+      "PromptWiz is a full-stack open-source prompt tool for the modern world. This project allows users to discover, create, share, copy, edit and delete creative prompts.",
+    img: "./images/promptwiz.png",
+    gitrepo: "https://github.com/Divya-Konala/PromptWiz",
+    tech_stack: "Next.js | MongoDB | Tailwind CSS",
+    tech_stackicons: [
+      `<img src="https://img.icons8.com/fluency-systems-regular/48/nextjs.png"/>`,
+      `<img src="https://img.icons8.com/color/50/000000/mongodb.png"/>`,
+      `<img src="https://img.icons8.com/color/48/tailwindcss.png"/>`,
+    ],
+    project_link: "https://prompt-wiz-pi.vercel.app",
+    project_type: "Individual Project",
+  },
+  {
     name: "Typing Playground",
     about:
       "A multi-mode typing test website with the ability to save results for best analysis.",
@@ -17,8 +32,7 @@ const Projects = [
   },
   {
     name: "Shopping Website",
-    about:
-      "Fully functional and responsive e-commerce website",
+    about: "Fully functional and responsive e-commerce website",
     img: "./images/instyle.png",
     gitrepo: "https://github.com/Divya-Konala/Instyle-ShoppingApp",
     tech_stack: "HTML | CSS | JS | Firebase | Bootstrap | Fakestore API",
@@ -28,29 +42,15 @@ const Projects = [
       `<img src="https://img.icons8.com/color/48/000000/javascript--v2.png"/>`,
       `<img src="https://img.icons8.com/color/48/000000/google-firebase-console"/>`,
       `<img src="https://img.icons8.com/color/48/000000/bootstrap"/>`,
-      `<img src="https://img.icons8.com/color/48/000000/api-settings.png"/>`
+      `<img src="https://img.icons8.com/color/48/000000/api-settings.png"/>`,
     ],
     project_link: "https://instyle-shopping-app.vercel.app/",
     project_type: "Individual Project",
   },
   {
-    name: "Task Management Application",
-    about:
-      "Task Management Application is designed to help users organize and track their tasks efficiently. It offers various features like Add a task card to the list, Update/Delete task, Move card to another list & Export the entire list to Excel",
-    img: "./images/tasklist.png",
-    gitrepo: "https://github.com/Divya-Konala/Task-List",
-    tech_stack: "React | xlsx | CSS",
-    tech_stackicons: [
-      `<img src="https://img.icons8.com/color/48/000000/react-native.png"/>`,
-      `<img src="https://img.icons8.com/color/48/000000/microsoft-excel-2019"/>`,
-      `<img src="https://img.icons8.com/color/48/000000/css3"/>`,
-    ],
-    project_link: "https://task-list-divyakonala.netlify.app/",
-    project_type: "Individual Project",
-  },
-  {
     name: "Book Search Application",
-    about: "A responsive book search application to search all the books using google API. It also saves the list of all previous searches.",
+    about:
+      "A responsive book search application to search all the books using google API. It also saves the list of all previous searches.",
     img: "./images/bookworm.png",
     gitrepo: "https://github.com/Divya-Konala/BookSearch",
     tech_stack: "HTML | CSS | JS | Bootstrap | API",
@@ -64,7 +64,6 @@ const Projects = [
     project_link: "https://bookworm-divyakonala.netlify.app/",
     project_type: "Individual Project",
   },
-  
 ];
 
 let projects__container = document.getElementById("projects--container");
