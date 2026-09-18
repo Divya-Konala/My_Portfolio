@@ -5,6 +5,8 @@ var typed = new Typed(".typing", {
     "Web Developer",
     "MERN-Stack Developer",
     "React Developer",
+    "Java Developer",
+    "Full Stack Developer"
   ],
   typeSpeed: 100,
   BackSpeed: 60,
